@@ -33,11 +33,6 @@ const pO = (): number => {
   return s;
 };
 
-/**
- * @comment
- * Part 1 only using chatGPT to asking about searching
- * digitals in a string using test method
- */
 const pT = () => {
   let s: number = 0;
 
