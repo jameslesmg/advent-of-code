@@ -1,13 +1,23 @@
 {
-  "name": "aoc-ts-template",
+  "name": "advent-of-code",
   "version": "1.0.0",
-  "description": "A TypeScript template for Advent of Code",
+  "description": "SMG Real Estate Advent of Code 2023",
   "main": "src/index.ts",
   "scripts": {
     "start": "ts-node ."
   },
-  "author": "izexi",
+  "author": "James Le <james.le@swissmarketplace.group>",
   "license": "ISC",
+  "keywords": [
+    "Swiss Marketplace Group",
+    "Homegate",
+    "Immoscout24",
+    "SMG",
+    "HG",
+    "IS24",
+    "Real Estate",
+    "Pragmatic Pandas"
+  ],
   "dependencies": {
     "typescript": "5.3.2"
   },

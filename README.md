@@ -13,7 +13,7 @@ yarn start --day=DAY
 
 By default, the function will return the `input.txt` (for the according day which is determined by the flag mentioned above) splitted by `'\n'` as the delimiter and it will also be mapped into numbers by default.
 
-This behaviour can be modified by overriding these options via the [`SplitOptions`](https://github.com/izexi/aoc-ts-template/blob/master/src/util/index.ts#L3-L11) param, here are some examples to illustrate that:
+This behavior can be modified by overriding these options via the [`SplitOptions`](https://github.com/izexi/aoc-ts-template/blob/master/src/util/index.ts#L3-L11) param, here are some examples to illustrate that:
 
 Let's say the `input.txt` looks like
 ```
@@ -55,7 +55,7 @@ We can get that by doing: `parseInput({ split: false })`
 
 ---
 
-There may a scenrio where we need to map each item in the input, for example let's say that we wanted to double each number:
+There may a scenario where we need to map each item in the input, for example let's say that we wanted to double each number:
 
 ```
 1

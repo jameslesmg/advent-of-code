@@ -1,4 +1,4 @@
-import {  readFileSync } from 'fs';
+import { readFileSync } from 'fs';
 import * as path from 'path';
 
 export const formatDay = (day: number | string) =>
@@ -6,8 +6,8 @@ export const formatDay = (day: number | string) =>
 
 /**
  * @typedef {Object} SplitOptions
- * @property {string|false} [delimiter='\n'] - a delimeter to split the input by (false will omit the splitting and return the entire input)
- * @property {funcion(string, number, string[]): *|false} [mapper=Number] - a function that will be used to map the splitted input (false will omit the mapping and return the splitted input)
+ * @property {string|false} [delimiter='\n'] - a decimeter to split the input by (false will omit the splitting and return the entire input)
+ * @property {function(string, number, string[]): *|false} [mapper=Number] - a function that will be used to map the splitted input (false will omit the mapping and return the splitted input)
  */
 interface SplitOptions<T> {
   delimiter?: string;

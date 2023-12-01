@@ -9,8 +9,8 @@ console.log(`Running Day ${day}...`);
 const outputSolution = () =>
   console.log(
     `Day ${day} - Solution: ${
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
-      require(`./day${day}/index.ts`).default
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    require(`./day${day}/index.ts`).default
     }`
   );
 
