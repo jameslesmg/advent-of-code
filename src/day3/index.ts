@@ -116,7 +116,6 @@ const pT = (): number => {
   }
 
   return rs;
-
 };
 
 export default main();
